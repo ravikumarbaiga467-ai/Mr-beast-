@@ -1,43 +1,931 @@
-<!-- YouTube -->
-<a
-  aria-label="YouTube"
-  href="https://www.youtube.com/@MrBeast"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
->
-  <span class="material-symbols-outlined text-[20px]">smart_display</span>
-</a>
+<!DOCTYPE html>
 
-<!-- Instagram -->
-<a
-  aria-label="Instagram"
-  href="https://www.instagram.com/mrbeast/"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
->
-  <span class="material-symbols-outlined text-[20px]">photo_camera</span>
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Grotesk:wght@400;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline": "#849396", "tertiary": "#ffe7eb", "on-tertiary": "#66002c", "outline-variant": "#3b494c", "on-surface": "#dfe2f1", "on-tertiary-container": "#b10053", "tertiary-fixed": "#ffd9e0", "on-primary-fixed-variant": "#004f58", "inverse-on-surface": "#2c303b", "on-tertiary-fixed": "#3f0019", "primary-container": "#00e5ff", "on-secondary-fixed-variant": "#564500", "on-background": "#dfe2f1", "primary": "#c3f5ff", "surface-variant": "#313540", "surface-container-highest": "#313540", "background": "#0f131d", "primary-fixed-dim": "#00daf3", "on-secondary-container": "#6f5900", "on-primary-container": "#00626e", "inverse-primary": "#006875", "secondary-fixed": "#ffe082", "tertiary-fixed-dim": "#ffb1c3", "on-error-container": "#ffdad6", "secondary-container": "#fecf00", "surface": "#0f131d", "surface-tint": "#00daf3", "surface-container-low": "#171b26", "on-tertiary-fixed-variant": "#8f0041", "on-surface-variant": "#bac9cc", "tertiary-container": "#ffc0cd", "error-container": "#93000a", "on-primary-fixed": "#001f24", "primary-fixed": "#9cf0ff", "surface-container-lowest": "#0a0e18", "surface-dim": "#0f131d", "surface-container-high": "#262a35", "surface-bright": "#353944", "error": "#ffb4ab", "on-secondary-fixed": "#231b00", "surface-container": "#1c1f2a", "inverse-surface": "#dfe2f1", "secondary": "#fff0c9", "on-error": "#690005", "on-secondary": "#3c2f00", "on-primary": "#00363d", "secondary-fixed-dim": "#eec200" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "space-2xl": "4rem", "margin-mobile": "1rem", "space-sm": "0.5rem", "space-md": "1rem", "margin": "2rem", "gutter-mobile": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-xl": "2.5rem" }, "fontFamily": { "headline-lg": ["Anton"], "counter-xl-mobile": ["Anton"], "body-md": ["Space Grotesk"], "headline-sm": ["Space Grotesk"], "headline-xl": ["Anton"], "counter-xl": ["Anton"], "display-hero": ["Anton"], "label-md": ["Space Grotesk"], "headline-xl-mobile": ["Anton"], "label-lg": ["Space Grotesk"], "headline-lg-mobile": ["Anton"], "body-sm": ["Space Grotesk"], "display-hero-mobile": ["Anton"], "label-sm": ["Space Grotesk"], "headline-md": ["Space Grotesk"], "body-lg": ["Space Grotesk"] }, "fontSize": { "headline-lg": ["36px", { "lineHeight": "40px", "letterSpacing": "0.02em", "fontWeight": "400" }], "counter-xl-mobile": ["40px", { "lineHeight": "44px", "letterSpacing": "0.02em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "700" }], "headline-xl": ["52px", { "lineHeight": "56px", "letterSpacing": "0.02em", "fontWeight": "400" }], "counter-xl": ["64px", { "lineHeight": "68px", "letterSpacing": "0.03em", "fontWeight": "400" }], "display-hero": ["80px", { "lineHeight": "84px", "letterSpacing": "0.02em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }], "headline-xl-mobile": ["32px", { "lineHeight": "36px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.06em", "fontWeight": "700" }], "headline-lg-mobile": ["26px", { "lineHeight": "30px", "letterSpacing": "0.01em", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "display-hero-mobile": ["44px", { "lineHeight": "48px", "letterSpacing": "0.02em", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Creator Beast Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-e7hv8nH-HaWwJ0pI2AI3J_TqKBjp2uzz2-7Ms7JiIV6edgf7f3xXQhYVtCQRctOiZIDARDKYkrzuRWTeLy5bh8mKB5-ZHHzx6zWomBa-3D_PpuWWw29xEJ4nKbhVT8WmvnKRmqEszN0JzbwDMOYU9pFLMQV3g9D_M6sg_GtCZrk8HUuO-vRKP7yS_aiAk3k0rvF_9X5eS5qDTyJ2RKojxR1cyArV_JxFmh7B27jq"/><span class="font-headline-sm text-headline-sm uppercase text-primary tracking-wider hidden sm:inline-block">BEAST STUDIOS</span><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-high"><span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-primary uppercase">310M+ Subscribers</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary-container font-headline-sm"><a aria-current="page" class="transition-colors uppercase text-primary-container font-headline-sm" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="videos" href="#">Videos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="shorts" href="#">Shorts</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="business-and-collab" href="#">Business &amp; Collab</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="relative hidden md:block w-48 xl:w-64"><input class="w-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm rounded-full pl-space-md pr-space-xl py-space-xs focus:outline-none" placeholder="Search viral drops..." type="text"/><span class="material-symbols-outlined absolute right-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span></div><a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-error-container text-on-error-container hover:bg-error hover:text-on-error transition-all font-label-md text-label-md uppercase" href="#"><span class="material-symbols-outlined text-[16px]">notifications_active</span><span class="hidden sm:inline">Subscribe</span></a><a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container text-on-secondary-container hover:bg-secondary hover:text-on-secondary transition-all font-label-md text-label-md uppercase" href="#"><span class="material-symbols-outlined text-[16px]">chat</span><span class="hidden xl:inline">Collab</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute top-20 right-10 w-[450px] h-[300px] bg-secondary-container/10 rounded-full blur-[120px] pointer-events-none"></div>
+<!-- HERO SECTION -->
+<section class="relative w-full px-gutter pt-space-xl pb-space-2xl flex flex-col items-center text-center">
+<!-- Quick Status Badges -->
+<div class="flex flex-wrap items-center justify-center gap-space-sm mb-space-lg">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high text-primary font-label-md text-label-md uppercase tracking-wider shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+          100% Real Challenges
+        </span>
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container/20 text-secondary-fixed font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">volunteer_activism</span>
+          $50M+ Given Away
+        </span>
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-high text-tertiary-fixed-dim font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">bolt</span>
+          Daily Drops &amp; Viral Shorts
+        </span>
+</div>
+<!-- Main Title -->
+<h1 class="font-display-hero text-display-hero text-on-surface uppercase max-w-5xl tracking-normal leading-none mb-space-sm drop-shadow-[0_10px_35px_rgba(0,229,255,0.25)]">
+        WELCOME TO THE <span class="text-primary-container">BEAST</span> EMPIRE! <span class="text-secondary-container">⚡</span>
+</h1>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant max-w-3xl mb-space-xl font-normal">
+        World's Craziest High-Stakes Stunts, Extreme Philanthropy &amp; Historic Record-Breaking Entertainment
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mb-space-2xl">
+<a class="group inline-flex items-center gap-space-sm px-space-xl py-space-md rounded-full bg-error text-on-error font-headline-sm text-headline-sm uppercase tracking-wide shadow-[0_0_30px_rgba(255,180,171,0.35)] hover:scale-105 transition-all" href="https://www.youtube.com/@MrBeast?sub_confirmation=1" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[26px]">smart_display</span>
+<span>SUBSCRIBE ON YOUTUBE (FREE)</span>
+<span class="material-symbols-outlined text-[22px] group-hover:rotate-12 transition-transform">notifications_active</span>
 </a>
+<a class="inline-flex items-center gap-space-sm px-space-xl py-space-md rounded-full bg-primary-container text-on-primary-fixed font-headline-sm text-headline-sm uppercase tracking-wide hover:shadow-[0_0_35px_rgba(0,229,255,0.5)] hover:scale-105 transition-all" href="#latest-release">
+<span class="material-symbols-outlined text-[24px]">play_arrow</span>
+<span>WATCH LATEST CHALLENGE</span>
+</a>
+</div>
+<!-- Channel Stats Banner -->
+<div class="w-full max-w-6xl bg-surface-container-low rounded-xl p-space-lg shadow-xl relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container/5 via-secondary-container/5 to-tertiary-container/5 pointer-events-none"></div>
+<div class="relative grid grid-cols-2 lg:grid-cols-4 gap-space-lg items-center">
+<div class="flex flex-col items-center text-center p-space-sm">
+<span class="font-label-md text-label-md text-primary-container uppercase tracking-widest mb-space-xs flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+              Live Worldwide
+            </span>
+<span class="font-counter-xl text-counter-xl text-on-surface tracking-tight" id="liveSubHero">312,480,920</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant uppercase">Subscribers</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-sm">
+<span class="font-label-md text-label-md text-secondary-container uppercase tracking-widest mb-space-xs">Lifetime Reach</span>
+<span class="font-counter-xl text-counter-xl text-on-surface tracking-tight">58.4B+</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant uppercase">Total Channel Views</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-sm">
+<span class="font-label-md text-label-md text-tertiary-fixed-dim uppercase tracking-widest mb-space-xs">Production Drops</span>
+<span class="font-counter-xl text-counter-xl text-on-surface tracking-tight">840+</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant uppercase">Mainline Videos</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-sm">
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest mb-space-xs">Global Standing</span>
+<span class="font-counter-xl text-counter-xl text-primary-container tracking-tight">#1</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant uppercase">Independent Creator</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- FEATURED RELEASE / LATEST MEGA VIDEO -->
+<section class="w-full px-gutter py-space-2xl bg-surface-container-lowest" id="latest-release">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-md text-label-md text-error uppercase tracking-widest flex items-center gap-space-xs mb-space-xs">
+<span class="w-2 h-2 rounded-full bg-error animate-ping"></span>
+            LATEST DROPPED VIDEO
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase tracking-wide">
+            THE BUNKER SURVIVAL EXPERIMENT
+          </h2>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-md text-label-md uppercase">
+<span class="px-space-sm py-space-xs bg-surface-container-high rounded text-primary">Premiere: 48 Hrs Ago</span>
+<span class="px-space-sm py-space-xs bg-surface-container-high rounded text-secondary-fixed">Velocity: +1.2M views/hr</span>
+</div>
+</div>
+<!-- Video Player Card -->
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container shadow-2xl group">
+<div class="relative aspect-video w-full overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High energy YouTube thumbnail mockup of a gigantic deep underground titanium nuclear bunker with dramatic yellow and cyan safety lighting, neon countdown timers displaying 100 days, heavy blast doors, and cash pallets stacked high in dynamic cinematic view" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzX8S-qOIUH41QGxN2FMypq208MSfiqYcD32TYnf9teFQhgrL0ULAr4hpHGNDp6Cos0nU6-bQjPWb3jHB7yevuUgo7jqqD8fkCHBxQgskNHf2indtli2181eimlR0kPFmPUhfOyVOUvjj2Zzkl_Nf9nviXoW6w42m0mYHwj0NyezOxPuB1RTCZgiD8ra0OCAazls0WffpR7ZrV-AGXnhQQa3cYPZ-6BTp-msJEOi3t"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-black/30"></div>
+<!-- Video Badges -->
+<div class="absolute top-space-md left-space-md flex items-center gap-space-xs">
+<span class="px-space-sm py-space-xs rounded bg-error text-on-error font-label-sm text-label-sm uppercase font-bold">4K ULTRA HD</span>
+<span class="px-space-sm py-space-xs rounded bg-surface-container-lowest/80 backdrop-blur-md text-on-surface font-label-sm text-label-sm uppercase font-bold">Closed Captions</span>
+</div>
+<div class="absolute top-space-md right-space-md">
+<span class="px-space-md py-space-xs rounded bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-headline-sm text-headline-sm uppercase">24:18</span>
+</div>
+<!-- Central Play Button -->
+<a class="relative z-10 w-24 h-24 rounded-full bg-primary-container text-on-primary-fixed flex items-center justify-center shadow-[0_0_40px_rgba(0,229,255,0.7)] group-hover:scale-110 transition-transform" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[48px] ml-1">play_arrow</span>
+</a>
+<!-- Video Title Overlay on Bottom -->
+<div class="absolute bottom-space-lg left-space-lg right-space-lg flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<p class="font-headline-lg text-headline-lg text-on-surface uppercase max-w-3xl drop-shadow-md">
+                I Survived 100 Days Inside an Abandoned Nuclear Bunker!
+              </p>
+<div class="flex items-center gap-space-md mt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-bold text-on-surface">48,219,301 Views</span>
+<span>•</span>
+<span>Oct 24, 2025</span>
+<span>•</span>
+<span class="text-primary-container">#1 On Trending Worldwide</span>
+</div>
+</div>
+<!-- Interactivity buttons -->
+<div class="flex items-center gap-space-sm">
+<a class="px-space-lg py-space-sm rounded-full bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm uppercase inline-flex items-center gap-space-xs shadow-md hover:bg-secondary-fixed transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">thumb_up</span>
+<span>4.2M</span>
+</a>
+<button class="p-space-sm rounded-full bg-surface-container-high text-on-surface hover:text-primary transition-colors" onclick="navigator.clipboard?.writeText('https://www.youtube.com/watch?v=VIDEO_ID'); alert('Video URL copied to clipboard!');" title="Share Video">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-outline text-right">
+        Developer Note: Embed ready by switching target link to your YouTube video identifier: <code class="text-primary font-bold">https://www.youtube.com/watch?v=VIDEO_ID</code>
+</p>
+</div>
+</section>
+<!-- POPULAR VIDEOS & REALTIME FILTER GRID -->
+<section class="w-full px-gutter py-space-2xl bg-surface" id="videos">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-md text-label-md text-secondary-container uppercase tracking-widest">HALL OF FAME CHALLENGES</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase">MOST VIRAL RELEASES</h2>
+</div>
+<!-- Live Search Bar -->
+<div class="relative w-full md:w-80">
+<input class="w-full bg-surface-container-high text-on-surface placeholder:text-on-surface-variant font-body-md text-body-md rounded-full pl-space-md pr-space-xl py-space-xs focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" id="videoSearchInput" placeholder="Filter stunts, islands, cars..." type="text"/>
+<span class="material-symbols-outlined absolute right-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+</div>
+</div>
+<!-- Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-xs" id="categoryFilterContainer">
+<button class="cat-pill active-pill px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-fixed font-label-md text-label-md uppercase transition-all" data-cat="all">All Videos</button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase transition-all" data-cat="extreme">Extreme Challenges</button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase transition-all" data-cat="24hours">24 Hours</button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase transition-all" data-cat="philanthropy">Philanthropy</button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase transition-all" data-cat="gaming">Gaming</button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md uppercase transition-all" data-cat="records">World Records</button>
+</div>
+<!-- 3-Column Video Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="videoGrid">
+<!-- Video 1 -->
+<article class="video-card flex flex-col bg-surface-container-low rounded-xl overflow-hidden hover:-translate-y-1 transition-all duration-300 shadow-lg group" data-category="extreme" data-title="1000 people fight for a private island">
+<div class="relative aspect-video w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="High saturation action YouTube thumbnail with aerial view of a tropical private island surrounded by electric turquoise water, 100 contestants in color coded jumpsuits racing on the beach, and a massive bold gold text banner saying WIN PRIVATE ISLAND" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4zVJ68XT5cPkf1sST2xKn1GMzTOreCQD4m0CVfztFJ_DoakhkQtwO_Zu5o7buITz6OE_cDW6X6cqMSu06NuXqtwDw7bQr0eYhszxnX5qHFsET2u_mUz6rZbIyo78z_WndPm-9qpkCV5ActRA8rgYBQvGm03sU68lEz5pPvvdPg09doYyOcHRPxngal-XRHdKbjHUThVcYw5YKaSWuyhj3j7pUml-UvJpGa0aVif8n"/>
+<span class="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-[11px] font-bold text-on-surface">32:41</span>
+<span class="absolute top-space-xs left-space-xs bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase px-space-xs py-0.5 rounded">280M Views</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2 group-hover:text-primary-container transition-colors">
+                $5,000,000 Private Island Challenge: Last One To Leave Wins!
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                We trapped 100 people on a deserted tropical fortress island with zero supplies.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Released 3 mos ago</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-fixed font-label-md text-label-md uppercase transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+                Watch Now
+              </a>
+</div>
+</div>
+</article>
+<!-- Video 2 -->
+<article class="video-card flex flex-col bg-surface-container-low rounded-xl overflow-hidden hover:-translate-y-1 transition-all duration-300 shadow-lg group" data-category="24hours" data-title="24 hours trapped in a world of ice">
+<div class="relative aspect-video w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Extreme cold challenge thumbnail with an enormous hollow iceberg fortress carved out in Antarctica, freezing blizzards, glowing red thermals, contestant shivering inside an ice prison, and vibrant electric cyan typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEpHfl3Q4Lgx0NdhBQJtBHPh88UUKSJY-rU0LcqirTFRE8eE_Sr-4We9Zd9lpNPTpuTHaC1mwdpWs6MtHdU9BxM4OVAMZ_tMN6EUoolz2F9VzUjp-_6rRGTK_Bto3dr_UVzTjGwco_CkOIhA_tnoHe798usdLKjgvlKJ3oCp3m8Nw75rS8Oc-0tVeC0LvreoYOxPs2ThnLRDq7yMfYxyopgbTdn7dNQorBSvPdcQZf"/>
+<span class="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-[11px] font-bold text-on-surface">21:14</span>
+<span class="absolute top-space-xs left-space-xs bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase px-space-xs py-0.5 rounded">210M Views</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2 group-hover:text-primary-container transition-colors">
+                I Spent 24 Hours Inside an Arctic Glacier Prison
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Sub-zero survival with only a flamethrower and a sleeping bag inside solid ice!
+              </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Released 5 mos ago</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-fixed font-label-md text-label-md uppercase transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+                Watch Now
+              </a>
+</div>
+</div>
+</article>
+<!-- Video 3 -->
+<article class="video-card flex flex-col bg-surface-container-low rounded-xl overflow-hidden hover:-translate-y-1 transition-all duration-300 shadow-lg group" data-category="philanthropy" data-title="i built 100 wells in africa clean drinking water">
+<div class="relative aspect-video w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Warm and joyful philanthropy video thumbnail with local villagers in East Africa celebrating as fresh pure clean water gushes from a newly constructed blue mechanical water tower well under bright sunny golden skies" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuukDyahgg_E807LZInLnXJ3S5NVLMj8RWv-HrRDILLZQ1nPUgbJtaNnLhBKrAIx6hlBgwjErojjgUb9Jxa90JBGLAH2m7lG6LVMBiXScC3bBUnH4xFJuj8Vq30SxV-UyyVoHR1pZlYkQmkdhw6Zz46CPrMHB2MqjXoJ97IHMcUpWHmf2kv2rgXZVQolRRrrESKXO2Y81kgbtUz6s-knCANtRafLScMUPECZP74zIG"/>
+<span class="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-[11px] font-bold text-on-surface">18:05</span>
+<span class="absolute top-space-xs left-space-xs bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm uppercase px-space-xs py-0.5 rounded">195M Views</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2 group-hover:text-primary-container transition-colors">
+                We Built 100 Wells in Africa (Clean Water For 500,000 People)
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                100% of video ad revenue directly financed drill sites, schools and bridges.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Released 8 mos ago</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-fixed font-label-md text-label-md uppercase transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+                Watch Now
+              </a>
+</div>
+</div>
+</article>
+<!-- Video 4 -->
+<article class="video-card flex flex-col bg-surface-container-low rounded-xl overflow-hidden hover:-translate-y-1 transition-all duration-300 shadow-lg group" data-category="records" data-title="world record laser maze escape heist">
+<div class="relative aspect-video w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="High tech neon bank vault filled with hundreds of criss-crossing glowing neon cyan and neon pink laser security beams, a stunt performer leaping in mid-air to steal a glittering solid gold diamond trophy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqenO0hEKtR1nl5s_oC6GixR9QOnEMrpOxGijAyEbqpdPSeP23ftp08pWxj9OO5o__gPOgPNyKL355wg-kC7CY2kbLAh-zDEocEM4t3ODcyxPpGgMgcCgBlCQ1-yYAOkSUnkq4b7tm0zHs2QQW6RQ0iJ6Z_8oz9vZ3mQODfepNu4mOSzhgZvy3uV64r2wbNjRYQ5CgP-Hr_IJnpEExqOAFojckIwKQBGBWNbefmxYj"/>
+<span class="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-[11px] font-bold text-on-surface">19:42</span>
+<span class="absolute top-space-xs left-space-xs bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase px-space-xs py-0.5 rounded">160M Views</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2 group-hover:text-primary-container transition-colors">
+                World's Most Dangerous Laser Maze (Touch = Disqualified)
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Guinness World Records adjudicators watched 50 contestants tackle the vault.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Released 9 mos ago</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-fixed font-label-md text-label-md uppercase transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+                Watch Now
+              </a>
+</div>
+</div>
+</article>
+<!-- Video 5 -->
+<article class="video-card flex flex-col bg-surface-container-low rounded-xl overflow-hidden hover:-translate-y-1 transition-all duration-300 shadow-lg group" data-category="gaming" data-title="real life minecraft in extreme mega warehouse">
+<div class="relative aspect-video w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Massive warehouse converted into life sized pixelated voxel blocks world with lava pits, wooden pickaxes, creepers made with pyrotechnics, and dynamic gaming studio camera lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsREtrCZZud4ShULyR62Lgdp4dHkycmQO71hIWZR5nfHtVejHIkXCQw2JTs5WwffkcyznhoNMwE_JE3dplIvfWCW9wICRMYe5srMFenOQXGfnnHQTF6S18uF3oLmN6l3URoxjZcDCWqoCEzsbc6VNl-ULdhVOQs3c559jwWeWBvmx1GnZFUNwSVggNb2I80pQwHKWN88oj7rgSfUccr9-gtPE0Nvqb10SdK1Q7fOB1"/>
+<span class="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-[11px] font-bold text-on-surface">26:10</span>
+<span class="absolute top-space-xs left-space-xs bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase px-space-xs py-0.5 rounded">142M Views</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2 group-hover:text-primary-container transition-colors">
+                I Built Real Life Minecraft With 1,000,000 Real Blocks
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Top YouTubers competed to defeat the real-world Ender Dragon for $250,000.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Released 1 yr ago</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-fixed font-label-md text-label-md uppercase transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+                Watch Now
+              </a>
+</div>
+</div>
+</article>
+<!-- Video 6 -->
+<article class="video-card flex flex-col bg-surface-container-low rounded-xl overflow-hidden hover:-translate-y-1 transition-all duration-300 shadow-lg group" data-category="extreme" data-title="lamborghini vs shredder destruction test">
+<div class="relative aspect-video w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="High stakes destruction stunt YouTube thumbnail featuring a glossy neon yellow supercar Lamborghini positioned above an industrial shredder machine with sparks and sirens blazing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC96-c8Xreo7XAx4FB5Iy-Zg5gaBmjGmj0ma36Q82UKjl0WoK6DzzX_BTEBFCXd7G98mRe61yZu9sbOUB5Y7shbpeUixcL9RfTrEueV3JMUTQILAUJdzuM65AFsIcjhUOdLeJESY0AHcoAC3FLb-9vmgF9YE_UT_5wlj5abK1HWXQrZY5aSA0wTbPQ5eDzVHTmn2M5twcpYX8Nr3sBvu8dCnCPe4PjrJglclscthMJH"/>
+<span class="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-[11px] font-bold text-on-surface">15:50</span>
+<span class="absolute top-space-xs left-space-xs bg-error text-on-error font-label-sm text-label-sm uppercase px-space-xs py-0.5 rounded">310M Views</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2 group-hover:text-primary-container transition-colors">
+                Can a $300,000 Lamborghini Survive a Giant Industrial Shredder?
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                We tested blast shields, safe boxes, and hydraulic presses with high-speed cameras.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-outline">Released 1 yr ago</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-fixed font-label-md text-label-md uppercase transition-colors" href="https://www.youtube.com/watch?v=VIDEO_ID" rel="noopener noreferrer" target="_blank">
+                Watch Now
+              </a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- TRENDING SHORTS (Vertical 9:16 Aspect Cards) -->
+<section class="w-full px-gutter py-space-2xl bg-surface-container-lowest" id="shorts">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-10 h-10 rounded-full bg-error flex items-center justify-center text-on-error">
+<span class="material-symbols-outlined text-[24px]">local_fire_department</span>
+</span>
+<div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-none">
+              TRENDING SHORTS
+            </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Quick dopamine drops &amp; extreme 60-second spectacles</span>
+</div>
+</div>
+<a class="font-label-lg text-label-lg uppercase text-primary hover:underline hidden sm:inline" href="https://www.youtube.com/@MrBeast/shorts" rel="noopener noreferrer" target="_blank">
+          View All Shorts →
+        </a>
+</div>
+<!-- 4 Vertical Cards -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+<!-- Short 1 -->
+<div class="relative aspect-[9/16] rounded-xl overflow-hidden bg-surface-container shadow-xl group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Vertical 9 to 16 YouTube Short preview of giving a random stranger at an Apple store a briefcase filled with 10000 dollars in crisp cash bundles, shock and joy on people's faces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfj9GwKysjnHJE0w0a_zqkS-UP0NIzSzJ3rKBj5XOimkHZZJ-hH5_Lw-LM9qJ92i6nMnkEDiZIxb_3GA8PtxMFBti-5jPTYCJHu5NJI-f9HilJqLj76x-xWdwURVm9FtthDTGZU_G_elLuBdDhfB5K3YRYujdQuYfBob0VIoCSU1ydLbSqCinYQJ6hcSfKjPcddsagvm-sVutkLKSijUz95Ti7GZdfYCs9CuP3kz5h"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-error text-on-error font-label-sm text-label-sm uppercase flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">whatshot</span> 94M
+            </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="material-symbols-outlined text-on-surface text-[18px]">music_note</span>
+</div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex flex-col gap-space-xs">
+<p class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2">
+              Giving Away $10,000 If You Can Carry This!
+            </p>
+<a class="w-full py-space-xs rounded-full bg-primary-container text-on-primary-fixed text-center font-label-md text-label-md uppercase hover:bg-primary transition-colors" href="https://www.youtube.com/shorts/SHORT_ID_1" rel="noopener noreferrer" target="_blank">
+              Watch Short
+            </a>
+</div>
+</div>
+<!-- Short 2 -->
+<div class="relative aspect-[9/16] rounded-xl overflow-hidden bg-surface-container shadow-xl group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Vertical 9 to 16 short thumbnail with giant hydraulic press crushing diamond rings with bright sparks and slow motion impact explosion" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxTzFfQTteEmWb9b3HgjAyME82em11j0PJo0rsB80OwpWx-C4rBRugLZJgFxmuN5OCJRFAu8fuwDx01bwZYsD40POW5QRV7IxFKk0SfwFvOZsFaNZX4ShhRhaabTQxdMnzxh960o0xFApJDuf0BrdllbsuxBhFuI_D3pm4xh0r_kN_FNNB4BayvlQ_5oXL3Rd-P3_x-7WpX0cxLunsPCfr73ZYSbVAF1K2Qz1MwFYS"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">whatshot</span> 78M
+            </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="material-symbols-outlined text-on-surface text-[18px]">graphic_eq</span>
+</div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex flex-col gap-space-xs">
+<p class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2">
+              Real Diamond vs Giant Hydraulic Press
+            </p>
+<a class="w-full py-space-xs rounded-full bg-primary-container text-on-primary-fixed text-center font-label-md text-label-md uppercase hover:bg-primary transition-colors" href="https://www.youtube.com/shorts/SHORT_ID_2" rel="noopener noreferrer" target="_blank">
+              Watch Short
+            </a>
+</div>
+</div>
+<!-- Short 3 -->
+<div class="relative aspect-[9/16] rounded-xl overflow-hidden bg-surface-container shadow-xl group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Vertical 9 to 16 action short thumbnail of catching a giant football thrown from a helicopter hovering 500 feet in the air over an NFL stadium with fireworks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEmZsPwvdgvR6CF--FvwF4YpdLJfIcyM7z6Mr4fggdy1EDPcDJBOChSe3yt9qu78uKsKzZk9biw65g2g0PIWzYdHxhrF1nbkNtmLdUx_Ux08LEIfVTVXD7SQ2tuX3lgFDP3k3d0Tx2ek5HX6_nzocDZjNmEvkeHdI9sfbFr3BfsTZ3-VfJS5aVeL0QhXkXpcy_4vxJrU3MiBLmNIUCRW4jvnv6CsTLIaa7pPWSYrDD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-error text-on-error font-label-sm text-label-sm uppercase flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">whatshot</span> 89M
+            </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="material-symbols-outlined text-on-surface text-[18px]">music_note</span>
+</div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex flex-col gap-space-xs">
+<p class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2">
+              I Threw A Ball Out Of A Helicopter!
+            </p>
+<a class="w-full py-space-xs rounded-full bg-primary-container text-on-primary-fixed text-center font-label-md text-label-md uppercase hover:bg-primary transition-colors" href="https://www.youtube.com/shorts/SHORT_ID_3" rel="noopener noreferrer" target="_blank">
+              Watch Short
+            </a>
+</div>
+</div>
+<!-- Short 4 -->
+<div class="relative aspect-[9/16] rounded-xl overflow-hidden bg-surface-container shadow-xl group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Vertical 9 to 16 YouTube short thumbnail showing 100 chocolate bars stacked next to a brand new Tesla Model 3 with a golden winning ticket glowing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrw1jrvTkXBzbI_rKzVA8nPzAHUesINCQ8utv8JmZpeBUxMeNIy3QyQcbsb0X-K3aLa9Zuv8R6p6csYVz7H_jQyfapwX4MOFpb3EtnqqKUboFA-9qiWMMZU1pvYrBD9T_Z33vCt6pqXrmN37pJtu8PA_-WUxUifh81mqCfhN6Wxs9-8eYCBvYqAtIhx6-QQKuIbtadprNh_Kj7Huxi_X8TaJbhjEUBkulhbGoTbunH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm uppercase flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">whatshot</span> 112M
+            </span>
+</div>
+<div class="absolute top-space-sm right-space-sm">
+<span class="material-symbols-outlined text-on-surface text-[18px]">graphic_eq</span>
+</div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex flex-col gap-space-xs">
+<p class="font-headline-sm text-headline-sm text-on-surface uppercase line-clamp-2">
+              Whoever Finds The Golden Ticket Keeps The Car!
+            </p>
+<a class="w-full py-space-xs rounded-full bg-primary-container text-on-primary-fixed text-center font-label-md text-label-md uppercase hover:bg-primary transition-colors" href="https://www.youtube.com/shorts/SHORT_ID_4" rel="noopener noreferrer" target="_blank">
+              Watch Short
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LIVE CREATOR DASHBOARD & CHANNEL CHATA (Stats Insights) -->
+<section class="w-full px-gutter py-space-2xl bg-surface">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<div>
+<span class="font-label-md text-label-md text-primary-container uppercase tracking-widest">REALTIME CREATOR TELEMETRY</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase">LIVE CHANNEL DASHBOARD</h2>
+</div>
+<!-- Bento Grid for Analytics -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Sub Rate Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-lg">
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-md text-label-md uppercase text-on-surface-variant">Live Velocity</span>
+<span class="px-space-sm py-space-xs rounded-full bg-primary-container/20 text-primary-container font-label-sm text-label-sm uppercase">+1,250 / Hour</span>
+</div>
+<div>
+<span class="font-counter-xl text-counter-xl text-on-surface tracking-tight" id="dashboardSubCounter">312,481,170</span>
+<p class="font-body-sm text-body-sm text-primary mt-space-xs flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px]">trending_up</span> Real-time live subscriber pulse
+            </p>
+</div>
+<!-- Sparkline SVG -->
+<div class="mt-space-md pt-space-md">
+<svg class="w-full h-12 text-primary-container" fill="none" preserveaspectratio="none" viewbox="0 0 300 50">
+<path d="M0,45 Q40,42 75,32 T150,22 T225,12 T300,4" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path d="M0,45 Q40,42 75,32 T150,22 T225,12 T300,4 L300,50 L0,50 Z" fill="currentColor" fill-opacity="0.1"></path>
+</svg>
+</div>
+</div>
+<!-- Audience Demographics -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-lg">
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-md text-label-md uppercase text-on-surface-variant">Top Demographics</span>
+<span class="material-symbols-outlined text-secondary-container">public</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div>
+<div class="flex justify-between font-label-md text-label-md uppercase mb-1">
+<span>United States</span>
+<span class="text-primary">34%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 34%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md uppercase mb-1">
+<span>India</span>
+<span class="text-secondary-fixed">26%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-secondary-container rounded-full" style="width: 26%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md uppercase mb-1">
+<span>United Kingdom</span>
+<span class="text-on-surface">14%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-on-surface-variant rounded-full" style="width: 14%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md uppercase mb-1">
+<span>Brazil &amp; LatAm</span>
+<span class="text-tertiary-fixed-dim">12%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 12%"></div>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-space-md">Over 14 localized audio dub tracks active.</p>
+</div>
+<!-- Retention & Philanthropy Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-lg">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md uppercase text-on-surface-variant">Average Retention</span>
+<span class="px-space-sm py-space-xs bg-surface-container-high rounded font-bold text-primary">84.6%</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden mb-space-lg">
+<div class="h-full bg-gradient-to-r from-primary-container via-secondary-container to-tertiary-container rounded-full" style="width: 84.6%"></div>
+</div>
+</div>
+<div class="p-space-md rounded bg-surface-container">
+<span class="font-label-sm text-label-sm uppercase text-secondary-container tracking-wider block mb-1">Philanthropy Impact Tracker</span>
+<div class="font-counter-xl text-[44px] text-on-surface leading-none">$10,480,000+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Total funds disbursed via Beast Philanthropy to food pantries, water infrastructure, and surgeries.
+            </p>
+</div>
+</div>
+</div>
+<!-- Milestone Badges Track -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-lg">
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase mb-space-md">
+          Historical Play Button Milestones
+        </h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-space-md">
+<div class="p-space-md rounded bg-surface-container flex items-center gap-space-md">
+<span class="material-symbols-outlined text-[36px] text-on-surface-variant">military_tech</span>
+<div>
+<div class="font-headline-sm text-headline-sm uppercase text-on-surface">100,000</div>
+<div class="font-label-sm text-label-sm uppercase text-outline">Silver Award (2016)</div>
+</div>
+</div>
+<div class="p-space-md rounded bg-surface-container flex items-center gap-space-md">
+<span class="material-symbols-outlined text-[36px] text-secondary-container">workspace_premium</span>
+<div>
+<div class="font-headline-sm text-headline-sm uppercase text-secondary-container">1,000,000</div>
+<div class="font-label-sm text-label-sm uppercase text-outline">Gold Award (2017)</div>
+</div>
+</div>
+<div class="p-space-md rounded bg-surface-container flex items-center gap-space-md">
+<span class="material-symbols-outlined text-[36px] text-primary-container">diamond</span>
+<div>
+<div class="font-headline-sm text-headline-sm uppercase text-primary-container">10,000,000</div>
+<div class="font-label-sm text-label-sm uppercase text-outline">Diamond (2018)</div>
+</div>
+</div>
+<div class="p-space-md rounded bg-surface-container flex items-center gap-space-md">
+<span class="material-symbols-outlined text-[36px] text-error">stars</span>
+<div>
+<div class="font-headline-sm text-headline-sm uppercase text-error">300,000,000+</div>
+<div class="font-label-sm text-label-sm uppercase text-outline">Red Diamond (Current)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT THE CREATOR & SQUAD -->
+<section class="w-full px-gutter py-space-2xl bg-surface-container-lowest" id="about">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-2xl">
+<!-- Bio Header Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5 relative">
+<div class="aspect-square w-full rounded-xl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover" data-alt="High energy portrait of young male YouTube creator leader with friendly authentic smile wearing modern dark apparel inside a massive high tech cinematic production studio filled with neon monitors and studio flood lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgFyNGFOHoiWAj14KfHB7GBH-CDZJ2_tk-khU81gVQY4mRjfJuRjKAchFvTgVcRWs2w3L9DK_8AIQm6-cdAbpaps1_xafhScklyFYlo9I4Ogrkn9JzsgNrU6X5p04GtEEkj3Q7OouOJpQkXx7Y4a6bEpYQdJsvATpm0HY2jX_uqQAJbi3YizAtdhe82ZZh7XnNplLjd-O6ogr4V_wjKwx7G-gwtkiSlJfEh62CcqgL"/>
+</div>
+<div class="absolute -bottom-4 -right-4 p-space-md rounded-xl bg-surface-container-high shadow-xl max-w-xs">
+<p class="font-headline-sm text-headline-sm uppercase text-secondary-container">
+              “Make the world a better place before dying.”
+            </p>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant block mt-space-xs">- Core Channel Philosophy</span>
+</div>
+</div>
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<span class="font-label-md text-label-md text-primary-container uppercase tracking-widest">ABOUT BEAST STUDIOS</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-none">
+            FROM A BEDROOM IN NORTH CAROLINA TO THE BIGGEST CHANNEL ON EARTH
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            What started as a 13-year-old analyzing YouTube algorithms in 2012 evolved into a 250+ person full-scale entertainment infrastructure. We reinvest every single dollar back into scaling larger sets, funding real-world rescue missions, and producing television-grade stunts for millions of viewers across 190 countries.
+          </p>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-space-md">
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://www.youtube.com/@MrBeast" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-error group-hover:scale-110 transition-transform duration-700">smart_display</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">YouTube</span>
+<span class="font-label-sm text-label-sm text-outline">312M Subs</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://www.instagram.com/mrbeast/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed-dim group-hover:scale-110 transition-transform duration-700">photo_camera</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Instagram</span>
+<span class="font-label-sm text-label-sm text-outline">62M Fans</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://www.facebook.com/MrBeast6000/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-primary-container group-hover:scale-110 transition-transform duration-700">public</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Facebook</span>
+<span class="font-label-sm text-label-sm text-outline">26M Followers</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://twitter.com/MrBeast" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-primary-container group-hover:scale-110 transition-transform duration-700">tag</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">X / Twitter</span>
+<span class="font-label-sm text-label-sm text-outline">31M Followers</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://tiktok.com/@mrbeast" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-primary group-hover:scale-110 transition-transform duration-700">play_circle</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">TikTok</span>
+<span class="font-label-sm text-label-sm text-outline">98M Fans</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://discord.gg/mrbeast" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-secondary-container group-hover:scale-110 transition-transform duration-700">forum</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Discord</span>
+<span class="font-label-sm text-label-sm text-outline">500K+ Active</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-all duration-700 hover:-translate-y-1.5 hover:shadow-xl group" href="https://reddit.com/r/MrBeast" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-error-container group-hover:scale-110 transition-transform duration-700">local_fire_department</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Reddit</span>
+<span class="font-label-sm text-label-sm text-outline">r/MrBeast</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Squad / Crew Showcase -->
+<div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface uppercase mb-space-lg text-center md:text-left">
+          MEET THE CORE SQUAD
+        </h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg">
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden p-space-md gap-space-sm shadow-md">
+<div class="aspect-square w-full rounded overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of a cheerful comedic creator cohost smiling widely in an adventure set environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFKEMQ2Vhk4QgsVCfk5OO7pHXvec7JH26n29oMWy7WkCCbXze3ogcWLhy2KjerffmryIgfm4XojKHDuR0FnH3fd8OfwsPpleOXYlZ9Ig2aKHpfOyFpr8Xwi1lX6WxBpVyWJcQqRCpzVfXTm0_G6W1BzHl9CA9kkQhg4aoV0XVFuWIO-QvXQ1yUCppE31QI15Ak1kMHTYMHdAqVDLbsS07V2bddJH0hqSVRj1KFjiTp"/>
+</div>
+<div class="font-headline-sm text-headline-sm uppercase text-on-surface">Chandler</div>
+<span class="font-label-sm text-label-sm uppercase text-primary">Chief Contestant &amp; Talent</span>
+</div>
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden p-space-md gap-space-sm shadow-md">
+<div class="aspect-square w-full rounded overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of an energetic tactical crew member holding technical radios and safety gear on set" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCULreIv-co2elg8TlZqoluPUFsK9K3vCMWNZ9GoEBtcNmkKFVsUIP12sBEcqdm8lQkViG5Jd4rIs1-OLVGTWDzQGZAkLlhVX1keUAQy5Tm9kipQvIJZlp3P3FyLqVe4oLz2mb6vjmuw4Zz1-GD9GJfuEeRmDIuMmmaMlgDv5mfqwcs9TNZVY7R-8-_nyjM7VAYoInoOXaIU9Cw2CPI6o2-oqoyQmCnHyrUboy73F-q"/>
+</div>
+<div class="font-headline-sm text-headline-sm uppercase text-on-surface">Karl</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed">Creative &amp; Gaming Director</span>
+</div>
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden p-space-md gap-space-sm shadow-md">
+<div class="aspect-square w-full rounded overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of a confident production leader with studio walkie talkies and headset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCD_-ClBVvYbPSkr8RbKHQN2ySej_6nT-qvaceskXr74Oikzli8y40RF5Z7RQECn4Q0WzvlyAMqO6b2rf0m4hI0FdxTrJSUrWukLmhBqRmQNr4aPXVUQxCF7dPIb0LMABxCY_Zq-GSsr6ZOyspy_OrFWofbPzD31KfcATLb8RH0ODyM6I6speCnjXPCAYUcnUPsyjkVXDFmrUl-aR4HeIxKsveFWi8TaYfQF5n_CAh5"/>
+</div>
+<div class="font-headline-sm text-headline-sm uppercase text-on-surface">Nolan</div>
+<span class="font-label-sm text-label-sm uppercase text-primary">Challenge Coordinator</span>
+</div>
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden p-space-md gap-space-sm shadow-md">
+<div class="aspect-square w-full rounded overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of a focused lead cinematographer and director holding a massive cinema camera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmZradzhH7IstYb379EsfwGdOnhGQJ0j1xM9vw-Ey8MEE0CwW--4qxVB-1-1Uh7303VGoGut5h6XE8M1wRbZT3gXiTBaoSjQInED4mWlsjD0_-lsQTVUikEa70_nF-T2PiNptcBYxZ0EKu6qQjaAs-wZuvsWcNnvNY-rLt0vjZL1kaEebZZTKupBjFXKbOtpI-AM80tNoBuKeTNtvxXarkDY5a6_HhRbN_9EJ6UrsQ"/>
+</div>
+<div class="font-headline-sm text-headline-sm uppercase text-on-surface">Tareq</div>
+<span class="font-label-sm text-label-sm uppercase text-tertiary-fixed-dim">Lead Director of Photography</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BUSINESS, SPONSORSHIPS & COLLABORATION -->
+<section class="w-full px-gutter py-space-2xl bg-surface" id="business-and-collab">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-2xl">
+<div class="text-center max-w-3xl mx-auto">
+<span class="font-label-md text-label-md text-secondary-container uppercase tracking-widest">WORLD-CLASS BRAND REACH</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase mt-space-xs">
+          BUSINESS, SPONSORSHIPS &amp; COLLABORATIONS
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+          Partner with the highest-converting digital audience in history. Over 100M+ organic guaranteed impressions per integration.
+        </p>
+</div>
+<!-- Past Sponsors Badges -->
+<div class="w-full bg-surface-container-low rounded-xl p-space-lg flex flex-col items-center gap-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline tracking-wider">Trusted by Industry-Leading Global Brands</span>
+<div class="flex flex-wrap items-center justify-center gap-space-xl opacity-80">
+<span class="font-headline-md text-headline-md tracking-wider text-on-surface uppercase">SHOPIFY</span>
+<span class="font-headline-md text-headline-md tracking-wider text-primary uppercase">FEASTABLES</span>
+<span class="font-headline-md text-headline-md tracking-wider text-secondary-container uppercase">HONEY</span>
+<span class="font-headline-md text-headline-md tracking-wider text-on-surface uppercase">ELECTRONIC ARTS</span>
+<span class="font-headline-md text-headline-md tracking-wider text-tertiary-fixed uppercase">TIKTOK</span>
+<span class="font-headline-md text-headline-md tracking-wider text-on-surface uppercase">SAMSUNG</span>
+</div>
+</div>
+<!-- Sponsorship Tiers Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Tier 1 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-outline">Tier 01</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mt-1">PRODUCT INTEGRATION</h3>
+<div class="font-counter-xl text-[40px] text-primary-container my-space-sm">60-90s MIDROLL</div>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Organic scripted segment</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Top pinned comment &amp; link</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Global audio dub included</li>
+</ul>
+</div>
+<a class="mt-space-lg w-full py-space-xs rounded-full bg-surface-container-high text-on-surface text-center font-label-md text-label-md uppercase hover:bg-surface-bright transition-colors" href="#contact-form">
+            Request Rates
+          </a>
+</div>
+<!-- Tier 2 (Highlighted) -->
+<div class="bg-surface-container rounded-xl p-space-lg flex flex-col justify-between shadow-2xl relative">
+<div class="absolute -top-3 right-6 px-space-md py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase font-bold">
+            Most Popular
+          </div>
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary-container">Tier 02</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mt-1">TITLE SPONSOR</h3>
+<div class="font-counter-xl text-[40px] text-secondary-container my-space-sm">VIDEO TAKEOVER</div>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span> Presented by "Brand" in Title</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span> Physical branded challenge stage</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span> Companion viral YouTube Short</li>
+</ul>
+</div>
+<a class="mt-space-lg w-full py-space-xs rounded-full bg-secondary-container text-on-secondary-container text-center font-label-md text-label-md uppercase hover:bg-secondary-fixed transition-colors font-bold" href="#contact-form">
+            Apply As Title Sponsor
+          </a>
+</div>
+<!-- Tier 3 -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-outline">Tier 03</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mt-1">PHILANTHROPIC PARTNER</h3>
+<div class="font-counter-xl text-[40px] text-primary my-space-sm">CO-FUND IMPACT</div>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> 100% Tax-deductible match</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Humanitarian field visibility</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> Press release &amp; global syndication</li>
+</ul>
+</div>
+<a class="mt-space-lg w-full py-space-xs rounded-full bg-surface-container-high text-on-surface text-center font-label-md text-label-md uppercase hover:bg-surface-bright transition-colors" href="#contact-form">
+            Inquire Charity Tier
+          </a>
+</div>
+</div>
+<!-- Official Contact Form & VIP Email -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl bg-surface-container-low rounded-xl p-space-xl shadow-xl" id="contact-form">
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div>
+<span class="font-label-md text-label-md text-primary-container uppercase tracking-widest">GET IN TOUCH</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface uppercase mt-space-xs">
+              OFFICIAL BUSINESS DESK
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+              We review submissions within 24 hours. Serious brand inquiries, IP licensing, and television distribution inquiries only.
+            </p>
+</div>
+<div class="p-space-md rounded bg-surface-container my-space-lg">
+<span class="font-label-sm text-label-sm uppercase text-outline block mb-1">Direct Management Inbox</span>
+<a class="font-headline-sm text-headline-sm text-primary hover:text-primary-container transition-colors break-all" href="mailto:business@beastcreators.com">
+              business@beastcreators.com
+            </a>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-1">Verified PGP Encrypted Desk</span>
+</div>
+<div class="flex items-center gap-space-sm text-outline font-label-sm text-label-sm uppercase">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>NDA protected communications</span>
+</div>
+</div>
+<form class="lg:col-span-7 flex flex-col gap-space-md" onsubmit="event.preventDefault(); alert('Inquiry received! Our management desk will reply to your official email within 24 hours.'); this.reset();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase text-on-surface-variant mb-space-xs">Brand / Company Name</label>
+<input class="w-full bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-md text-body-md rounded p-space-sm focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="e.g. Acme Corp" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase text-on-surface-variant mb-space-xs">Official Work Email</label>
+<input class="w-full bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-md text-body-md rounded p-space-sm focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="partner@brand.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase text-on-surface-variant mb-space-xs">Estimated Campaign Budget</label>
+<select class="w-full bg-surface-container-high text-on-surface font-body-md text-body-md rounded p-space-sm focus:outline-none focus:ring-2 focus:ring-primary-container">
+<option>$100,000 - $250,000</option>
+<option>$250,000 - $500,000</option>
+<option>$500,000 - $1,000,000+</option>
+<option>Multi-Video Series Enterprise</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase text-on-surface-variant mb-space-xs">Target Timeline</label>
+<select class="w-full bg-surface-container-high text-on-surface font-body-md text-body-md rounded p-space-sm focus:outline-none focus:ring-2 focus:ring-primary-container">
+<option>Next 30 Days (Urgent)</option>
+<option>Q1 / Q2 Next Year</option>
+<option>Flexible / Annual Retainer</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase text-on-surface-variant mb-space-xs">Campaign Brief &amp; Product Details</label>
+<textarea class="w-full bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-md text-body-md rounded p-space-sm focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="Outline product goals, preferred creator integration style, and key performance metrics..." required="" rows="4"></textarea>
+</div>
+<button class="w-full py-space-sm rounded-full bg-primary-container text-on-primary-fixed font-headline-sm text-headline-sm uppercase tracking-wider hover:bg-primary transition-all shadow-md" type="submit">
+            SEND OFFICIAL PROPOSAL →
+          </button>
+</form>
+</div>
+</div>
+</section>
+<!-- DIRECT WHATSAPP & SOCIAL MEDIA CONNECT -->
+<section class="w-full px-gutter py-space-2xl bg-surface-container-lowest">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<!-- WhatsApp VIP Fast-Track Banner -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-emerald-950/70 via-surface-container-high to-surface-container p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg shadow-2xl">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 shadow-[0_0_30px_rgba(16,185,129,0.3)]">
+<span class="material-symbols-outlined text-[36px]">forum</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase text-emerald-400 tracking-wider">Fast-Track Response Under 15m</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mt-1">
+              VIP TALENT &amp; BRAND WHATSAPP
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Connect directly with our Executive Producer &amp; Brand Partnership Management on WhatsApp.
+            </p>
+</div>
+</div>
+<a class="px-space-xl py-space-md rounded-full bg-emerald-500 text-black font-headline-sm text-headline-sm uppercase tracking-wide inline-flex items-center gap-space-sm shadow-[0_0_30px_rgba(16,185,129,0.5)] hover:scale-105 transition-transform shrink-0" href="https://wa.me/yourphonenumber" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span>CHAT ON WHATSAPP</span>
+</a>
+</div>
+<!-- Social Media Grid -->
+<div class="flex flex-col gap-space-md">
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase text-center md:text-left">
+          JOIN THE 350M+ COMMUNITY ACROSS ALL NETWORKS
+        </h4>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-space-md">
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-colors group" href="https://youtube.com/@MrBeast" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-error group-hover:scale-110 transition-transform">smart_display</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">YouTube</span>
+<span class="font-label-sm text-label-sm text-outline">312M Subs</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-colors group" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed-dim group-hover:scale-110 transition-transform">photo_camera</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Instagram</span>
+<span class="font-label-sm text-label-sm text-outline">62M Fans</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-colors group" href="https://twitter.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-primary-container group-hover:scale-110 transition-transform">tag</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">X / Twitter</span>
+<span class="font-label-sm text-label-sm text-outline">31M Followers</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-colors group" href="https://tiktok.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-primary group-hover:scale-110 transition-transform">play_circle</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">TikTok</span>
+<span class="font-label-sm text-label-sm text-outline">98M Fans</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-colors group" href="https://discord.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-secondary-container group-hover:scale-110 transition-transform">forum</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Discord</span>
+<span class="font-label-sm text-label-sm text-outline">500K+ Active</span>
+</a>
+<a class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center text-center gap-space-xs transition-colors group" href="https://reddit.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px] text-error-container group-hover:scale-110 transition-transform">public</span>
+<span class="font-label-md text-label-md uppercase text-on-surface">Reddit</span>
+<span class="font-label-sm text-label-sm text-outline">r/MrBeast</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Search & Filtering Inline Script -->
+<script>
+    (function initVideoDashboard() {
+      // 1. Live Sub Counter Simulation
+      const heroSubEl = document.getElementById('liveSubHero');
+      const dashSubEl = document.getElementById('dashboardSubCounter');
+      let baseCount = 312480920;
 
-<!-- X / Twitter -->
-<a
-  aria-label="X / Twitter"
-  href="https://x.com/MrBeast"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
->
-  <span class="material-symbols-outlined text-[20px]">tag</span>
-</a>
+      setInterval(() => {
+        const increment = Math.floor(Math.random() * 5) + 1;
+        baseCount += increment;
+        const formatted = baseCount.toLocaleString('en-US');
+        if (heroSubEl) heroSubEl.textContent = formatted;
+        if (dashSubEl) dashSubEl.textContent = formatted;
+      }, 2500);
 
-<!-- Facebook -->
-<a
-  aria-label="Facebook"
-  href="https://www.facebook.com/MrBeast/"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
->
-  <span class="material-symbols-outlined text-[20px]">public</span>
-</a>
+      // 2. Video Category Filter
+      const catButtons = document.querySelectorAll('.cat-pill');
+      const videoCards = document.querySelectorAll('.video-card');
+      const searchInput = document.getElementById('videoSearchInput');
+
+      let currentCat = 'all';
+      let currentQuery = '';
+
+      function applyFilter() {
+        videoCards.forEach(card => {
+          const cardCat = card.getAttribute('data-category');
+          const cardTitle = card.getAttribute('data-title') || '';
+          
+          const matchCat = (currentCat === 'all') || (cardCat === currentCat);
+          const matchQuery = !currentQuery || cardTitle.toLowerCase().includes(currentQuery);
+
+          if (matchCat && matchQuery) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      catButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          catButtons.forEach(b => {
+            b.classList.remove('bg-primary-container', 'text-on-primary-fixed');
+            b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+          });
+          btn.classList.add('bg-primary-container', 'text-on-primary-fixed');
+          btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+
+          currentCat = btn.getAttribute('data-cat') || 'all';
+          applyFilter();
+        });
+      });
+
+      // 3. Realtime Search input
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          currentQuery = e.target.value.trim().toLowerCase();
+          applyFilter();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-2xl"><div class="w-full px-gutter flex flex-col md:flex-row items-center justify-between gap-space-xl"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Creator Beast Brand Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-e7hv8nH-HaWwJ0pI2AI3J_TqKBjp2uzz2-7Ms7JiIV6edgf7f3xXQhYVtCQRctOiZIDARDKYkrzuRWTeLy5bh8mKB5-ZHHzx6zWomBa-3D_PpuWWw29xEJ4nKbhVT8WmvnKRmqEszN0JzbwDMOYU9pFLMQV3g9D_M6sg_GtCZrk8HUuO-vRKP7yS_aiAk3k0rvF_9X5eS5qDTyJ2RKojxR1cyArV_JxFmh7B27jq"/><span class="font-headline-sm text-headline-sm uppercase text-on-surface">BEAST CREATOR STUDIOS</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2025 Beast Studios Worldwide, Inc. Viral Entertainment Architecture.</p></div><div class="flex items-center gap-space-md flex-wrap justify-center"><a aria-label="YouTube" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-all duration-700 hover:scale-110 shadow-sm" href="https://www.youtube.com/@MrBeast" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">smart_display</span></a><a aria-label="Instagram" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-all duration-700 hover:scale-110 shadow-sm" href="https://www.instagram.com/mrbeast/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Facebook" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-all duration-700 hover:scale-110 shadow-sm" href="https://www.facebook.com/MrBeast6000/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">public</span></a><a aria-label="X" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-all duration-700 hover:scale-110 shadow-sm" href="https://twitter.com/MrBeast" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">tag</span></a><a aria-label="TikTok" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-all duration-700 hover:scale-110 shadow-sm" href="https://tiktok.com/@mrbeast" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">play_circle</span></a><a aria-label="Discord" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-all duration-700 hover:scale-110 shadow-sm" href="https://discord.gg/mrbeast" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">forum</span></a></div><div class="flex items-center gap-space-lg"><a class="font-label-md text-label-md uppercase text-primary hover:text-primary-container transition-colors" data-path="sponsor-inquiry" href="#">Sponsor Inquiry</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="business-and-collab" href="#">Media Kit</a></div></div></footer></body></html>
